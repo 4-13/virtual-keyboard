@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.keyboard__row {
+  display: flex;
+}
+
+.k-button {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "content";
+  font-size: 1.2rem;
+  padding: 0.25em;
+  block-size: 2em;
+}
+
+.k-button[data-type="default"] {
+  aspect-ratio: 1;
+}
+
+.k-button[aria-pressed="true"],
+[data-capslock-pressed="true"] .k-button[data-code="CapsLock"],
+[data-shift-pressed="true"][data-shift-active="ShiftLeft"]
+  .k-button[data-code="ShiftLeft"],
+[data-shift-pressed="true"][data-shift-active="ShiftRight"]
+  .k-button[data-code="ShiftRight"] {
+  background-color: red;
+}
+
+.k-button__default-text {
+  grid-area: content;
+}
+
+.k-button__alternate-text {
+  grid-area: content;
+  opacity: 0;
+}
+
+[data-shift-pressed="true"]
+  .k-button[data-type="char"]
+  .k-button__default-text {
+  opacity: 0;
+}
+
+[data-shift-pressed="true"]
+  .k-button[data-type="char"]
+  .k-button__alternate-text {
+  opacity: 1;
+}
+
+[data-capslock-pressed="true"][data-shift-pressed="false"]
+  .k-button[data-type="letter"]
+  .k-button__default-text {
+  opacity: 0;
+}
+
+[data-capslock-pressed="true"][data-shift-pressed="false"]
+  .k-button[data-type="letter"]
+  .k-button__alternate-text {
+  opacity: 1;
+}
+
+[data-capslock-pressed="false"][data-shift-pressed="true"]
+  .k-button[data-type="letter"]
+  .k-button__default-text {
+  opacity: 0;
+}
+
+[data-capslock-pressed="false"][data-shift-pressed="true"]
+  .k-button[data-type="letter"]
+  .k-button__alternate-text {
+  opacity: 1;
+}
