@@ -1,321 +1,351 @@
 {
-  "Backquote": {
-    "defaultValue": "`",
-    "alternateValue": "~"
-  },
-  "Digit1": {
-    "defaultValue": "1",
-    "alternateValue": "!"
-  },
-  "Digit2": {
-    "defaultValue": "2",
-    "alternateValue": "@"
-  },
-  "Digit3": {
-    "defaultValue": "3",
-    "alternateValue": "#"
-  },
-  "Digit4": {
-    "defaultValue": "4",
-    "alternateValue": "$"
-  },
-  "Digit5": {
-    "defaultValue": "5",
-    "alternateValue": "%"
-  },
-  "Digit6": {
-    "defaultValue": "6",
-    "alternateValue": "^"
-  },
-  "Digit7": {
-    "defaultValue": "7",
-    "alternateValue": "&"
-  },
-  "Digit8": {
-    "defaultValue": "8",
-    "alternateValue": "*"
-  },
-  "Digit9": {
-    "defaultValue": "9",
-    "alternateValue": "("
-  },
-  "Digit0": {
-    "defaultValue": "0",
-    "alternateValue": ")"
-  },
-  "Minus": {
-    "defaultValue": "-",
-    "alternateValue": "_"
-  },
-  "Equal": {
-    "defaultValue": "=",
-    "alternateValue": "+"
-  },
-  "Backspace": {
-    "defaultValue": "Backspace",
-    "alternateValue": "Backspace"
-  },
-  "Tab": {
-    "defaultValue": "Tab",
-    "alternateValue": "Tab"
-  },
-  "KeyQ": {
-    "defaultValue": "q",
-    "alternateValue": "Q"
-  },
-  "KeyW": {
-    "defaultValue": "w",
-    "alternateValue": "W"
-  },
-  "KeyE": {
-    "defaultValue": "e",
-    "alternateValue": "E"
-  },
-  "KeyR": {
-    "defaultValue": "r",
-    "alternateValue": "R"
-  },
-  "KeyT": {
-    "defaultValue": "t",
-    "alternateValue": "T"
-  },
-  "KeyY": {
-    "defaultValue": "y",
-    "alternateValue": "Y"
-  },
-  "KeyU": {
-    "defaultValue": "u",
-    "alternateValue": "U"
-  },
-  "KeyI": {
-    "defaultValue": "i",
-    "alternateValue": "I"
-  },
-  "KeyO": {
-    "defaultValue": "o",
-    "alternateValue": "O"
-  },
-  "KeyP": {
-    "defaultValue": "p",
-    "alternateValue": "P"
-  },
-  "BracketLeft": {
-    "defaultValue": "[",
-    "alternateValue": "{"
-  },
-  "BracketRight": {
-    "defaultValue": "]",
-    "alternateValue": "}"
-  },
-  "CapsLock": {
-    "defaultValue": "CapsLock",
-    "alternateValue": "CapsLock"
-  },
-  "KeyA": {
-    "defaultValue": "a",
-    "alternateValue": "A"
-  },
-  "KeyS": {
-    "defaultValue": "s",
-    "alternateValue": "S"
-  },
-  "KeyD": {
-    "defaultValue": "d",
-    "alternateValue": "D"
-  },
-  "KeyF": {
-    "defaultValue": "f",
-    "alternateValue": "F"
-  },
-  "KeyG": {
-    "defaultValue": "g",
-    "alternateValue": "G"
-  },
-  "KeyH": {
-    "defaultValue": "h",
-    "alternateValue": "H"
-  },
-  "KeyJ": {
-    "defaultValue": "j",
-    "alternateValue": "J"
-  },
-  "KeyK": {
-    "defaultValue": "k",
-    "alternateValue": "K"
-  },
-  "KeyL": {
-    "defaultValue": "l",
-    "alternateValue": "L"
-  },
-  "Semicolon": {
-    "defaultValue": ";",
-    "alternateValue": ":"
-  },
-  "Quote": {
-    "defaultValue": "'",
-    "alternateValue": "\""
-  },
-  "Backslash": {
-    "defaultValue": "\\",
-    "alternateValue": "|"
-  },
-  "Enter": {
-    "defaultValue": "Enter",
-    "alternateValue": "Enter"
-  },
-  "ShiftLeft": {
-    "defaultValue": "Shift",
-    "alternateValue": "Shift"
-  },
-  "IntlBackslash": {
-    "defaultValue": "\\",
-    "alternateValue": "|"
-  },
-  "KeyZ": {
-    "defaultValue": "z",
-    "alternateValue": "Z"
-  },
-  "KeyX": {
-    "defaultValue": "x",
-    "alternateValue": "X"
-  },
-  "KeyC": {
-    "defaultValue": "c",
-    "alternateValue": "C"
-  },
-  "KeyV": {
-    "defaultValue": "v",
-    "alternateValue": "V"
-  },
-  "KeyB": {
-    "defaultValue": "b",
-    "alternateValue": "B"
-  },
-  "KeyN": {
-    "defaultValue": "n",
-    "alternateValue": "N"
-  },
-  "KeyM": {
-    "defaultValue": "m",
-    "alternateValue": "M"
-  },
-  "Comma": {
-    "defaultValue": ",",
-    "alternateValue": "<"
-  },
-  "Period": {
-    "defaultValue": ".",
-    "alternateValue": ">"
-  },
-  "Slash": {
-    "defaultValue": "/",
-    "alternateValue": "?"
-  },
-  "ShiftRight": {
-    "defaultValue": "Shift",
-    "alternateValue": "Shift"
-  },
-  "ControlLeft": {
-    "defaultValue": "Control",
-    "alternateValue": "Control"
-  },
-  "MetaLeft": {
-    "defaultValue": "Meta",
-    "alternateValue": "Meta"
-  },
-  "AltLeft": {
-    "defaultValue": "Alt",
-    "alternateValue": "Alt"
-  },
-  "Space": {
-    "defaultValue": " ",
-    "alternateValue": " "
-  },
-  "AltRight": {
-    "defaultValue": "Alt",
-    "alternateValue": "AltGraph"
-  },
-  "MetaRight": {
-    "defaultValue": "Meta",
-    "alternateValue": "Meta"
-  },
-  "ContextMenu": {
-    "defaultValue": "ContextMenu",
-    "alternateValue": "ContextMenu"
-  },
-  "ControlRight": {
-    "defaultValue": "Control",
-    "alternateValue": "Control"
-  },
-  "Escape": {
-    "defaultValue": "Escape",
-    "alternateValue": "Escape"
-  },
-  "F1": {
-    "defaultValue": "F1",
-    "alternateValue": "F1"
-  },
-  "F2": {
-    "defaultValue": "F2"
-  },
-  "F3": {
-    "defaultValue": "F3",
-    "alternateValue": "F3"
-  },
-  "F4": {
-    "defaultValue": "F4",
-    "alternateValue": "F4"
-  },
-  "F5": {
-    "defaultValue": "F5",
-    "alternateValue": "F5"
-  },
-  "F6": {
-    "defaultValue": "F6",
-    "alternateValue": "F6"
-  },
-  "F7": {
-    "defaultValue": "F7",
-    "alternateValue": "F7"
-  },
-  "F8": {
-    "defaultValue": "F8",
-    "alternateValue": "F8"
-  },
-  "F9": {
-    "defaultValue": "F9",
-    "alternateValue": "F9"
-  },
-  "F10": {
-    "defaultValue": "F10",
-    "alternateValue": "F10"
-  },
-  "F11": {
-    "defaultValue": "F11",
-    "alternateValue": "F11"
-  },
-  "F12": {
-    "defaultValue": "F12",
-    "alternateValue": "F12"
-  },
-  "ArrowUp": {
-    "defaultValue": "ArrowUp",
-    "alternateValue": "ArrowUp"
-  },
-  "ArrowDown": {
-    "defaultValue": "ArrowDown",
-    "alternateValue": "ArrowDown"
-  },
-  "ArrowLeft": {
-    "defaultValue": "ArrowLeft",
-    "alternateValue": "ArrowLeft"
-  },
-  "ArrowRight": {
-    "defaultValue": "ArrowRight",
-    "alternateValue": "ArrowRight"
-  },
-  "Delete": {
-    "defaultValue": "Delete",
-    "alternateValue": "Delete"
+  "name": "English",
+  "shortName": "Eng",
+  "keys": {
+    "Backquote": {
+      "defaultValue": "`",
+      "alternateValue": "~",
+      "type": "char"
+    },
+    "Digit1": {
+      "defaultValue": "1",
+      "alternateValue": "!",
+      "type": "char"
+    },
+    "Digit2": {
+      "defaultValue": "2",
+      "alternateValue": "@",
+      "type": "char"
+    },
+    "Digit3": {
+      "defaultValue": "3",
+      "alternateValue": "#",
+      "type": "char"
+    },
+    "Digit4": {
+      "defaultValue": "4",
+      "alternateValue": "$",
+      "type": "char"
+    },
+    "Digit5": {
+      "defaultValue": "5",
+      "alternateValue": "%",
+      "type": "char"
+    },
+    "Digit6": {
+      "defaultValue": "6",
+      "alternateValue": "^",
+      "type": "char"
+    },
+    "Digit7": {
+      "defaultValue": "7",
+      "alternateValue": "&",
+      "type": "char"
+    },
+    "Digit8": {
+      "defaultValue": "8",
+      "alternateValue": "*",
+      "type": "char"
+    },
+    "Digit9": {
+      "defaultValue": "9",
+      "alternateValue": "(",
+      "type": "char"
+    },
+    "Digit0": {
+      "defaultValue": "0",
+      "alternateValue": ")",
+      "type": "char"
+    },
+    "Minus": {
+      "defaultValue": "-",
+      "alternateValue": "_",
+      "type": "char"
+    },
+    "Equal": {
+      "defaultValue": "=",
+      "alternateValue": "+",
+      "type": "char"
+    },
+    "Backspace": {
+      "defaultValue": "⟵",
+      "alternateValue": "⟵",
+      "type": "control"
+    },
+    "Tab": {
+      "defaultValue": "Tab",
+      "alternateValue": "Tab",
+      "type": "control"
+    },
+    "KeyQ": {
+      "defaultValue": "q",
+      "alternateValue": "Q",
+      "type": "letter"
+    },
+    "KeyW": {
+      "defaultValue": "w",
+      "alternateValue": "W",
+      "type": "letter"
+    },
+    "KeyE": {
+      "defaultValue": "e",
+      "alternateValue": "E",
+      "type": "letter"
+    },
+    "KeyR": {
+      "defaultValue": "r",
+      "alternateValue": "R",
+      "type": "letter"
+    },
+    "KeyT": {
+      "defaultValue": "t",
+      "alternateValue": "T",
+      "type": "letter"
+    },
+    "KeyY": {
+      "defaultValue": "y",
+      "alternateValue": "Y",
+      "type": "letter"
+    },
+    "KeyU": {
+      "defaultValue": "u",
+      "alternateValue": "U",
+      "type": "letter"
+    },
+    "KeyI": {
+      "defaultValue": "i",
+      "alternateValue": "I",
+      "type": "letter"
+    },
+    "KeyO": {
+      "defaultValue": "o",
+      "alternateValue": "O",
+      "type": "letter"
+    },
+    "KeyP": {
+      "defaultValue": "p",
+      "alternateValue": "P",
+      "type": "letter"
+    },
+    "BracketLeft": {
+      "defaultValue": "[",
+      "alternateValue": "{",
+      "type": "char"
+    },
+    "BracketRight": {
+      "defaultValue": "]",
+      "alternateValue": "}",
+      "type": "char"
+    },
+    "CapsLock": {
+      "defaultValue": "Caps Lock",
+      "alternateValue": "Caps Lock",
+      "type": "control"
+    },
+    "KeyA": {
+      "defaultValue": "a",
+      "alternateValue": "A",
+      "type": "letter"
+    },
+    "KeyS": {
+      "defaultValue": "s",
+      "alternateValue": "S",
+      "type": "letter"
+    },
+    "KeyD": {
+      "defaultValue": "d",
+      "alternateValue": "D",
+      "type": "letter"
+    },
+    "KeyF": {
+      "defaultValue": "f",
+      "alternateValue": "F",
+      "type": "letter"
+    },
+    "KeyG": {
+      "defaultValue": "g",
+      "alternateValue": "G",
+      "type": "letter"
+    },
+    "KeyH": {
+      "defaultValue": "h",
+      "alternateValue": "H",
+      "type": "letter"
+    },
+    "KeyJ": {
+      "defaultValue": "j",
+      "alternateValue": "J",
+      "type": "letter"
+    },
+    "KeyK": {
+      "defaultValue": "k",
+      "alternateValue": "K",
+      "type": "letter"
+    },
+    "KeyL": {
+      "defaultValue": "l",
+      "alternateValue": "L",
+      "type": "letter"
+    },
+    "Semicolon": {
+      "defaultValue": ";",
+      "alternateValue": ":",
+      "type": "char"
+    },
+    "Quote": {
+      "defaultValue": "'",
+      "alternateValue": "\"",
+      "type": "char"
+    },
+    "Backslash": {
+      "defaultValue": "\\",
+      "alternateValue": "|",
+      "type": "char"
+    },
+    "Enter": {
+      "defaultValue": "Enter",
+      "alternateValue": "Enter",
+      "type": "control"
+    },
+    "ShiftLeft": {
+      "defaultValue": "Shift",
+      "alternateValue": "Shift",
+      "type": "control"
+    },
+    "IntlBackslash": {
+      "defaultValue": "\\",
+      "alternateValue": "|",
+      "type": "char"
+    },
+    "KeyZ": {
+      "defaultValue": "z",
+      "alternateValue": "Z",
+      "type": "letter"
+    },
+    "KeyX": {
+      "defaultValue": "x",
+      "alternateValue": "X",
+      "type": "letter"
+    },
+    "KeyC": {
+      "defaultValue": "c",
+      "alternateValue": "C",
+      "type": "letter"
+    },
+    "KeyV": {
+      "defaultValue": "v",
+      "alternateValue": "V",
+      "type": "letter"
+    },
+    "KeyB": {
+      "defaultValue": "b",
+      "alternateValue": "B",
+      "type": "letter"
+    },
+    "KeyN": {
+      "defaultValue": "n",
+      "alternateValue": "N",
+      "type": "letter"
+    },
+    "KeyM": {
+      "defaultValue": "m",
+      "alternateValue": "M",
+      "type": "letter"
+    },
+    "Comma": {
+      "defaultValue": ",",
+      "alternateValue": "<",
+      "type": "char"
+    },
+    "Period": {
+      "defaultValue": ".",
+      "alternateValue": ">",
+      "type": "char"
+    },
+    "Slash": {
+      "defaultValue": "/",
+      "alternateValue": "?",
+      "type": "char"
+    },
+    "ShiftRight": {
+      "defaultValue": "Shift",
+      "alternateValue": "Shift",
+      "type": "control"
+    },
+    "ControlLeft": {
+      "defaultValue": "Ctrl",
+      "alternateValue": "Ctrl",
+      "type": "control"
+    },
+    "MetaLeft": {
+      "defaultValue": "Win",
+      "alternateValue": "Win",
+      "type": "control"
+    },
+    "AltLeft": {
+      "defaultValue": "Alt",
+      "alternateValue": "Alt",
+      "type": "control"
+    },
+    "Space": {
+      "defaultValue": " ",
+      "alternateValue": " ",
+      "type": "char"
+    },
+    "AltRight": {
+      "defaultValue": "AltGr",
+      "alternateValue": "AltGr",
+      "type": "control"
+    },
+    "MetaRight": {
+      "defaultValue": "Win",
+      "alternateValue": "Win",
+      "type": "control"
+    },
+    "ContextMenu": {
+      "defaultValue": "ContextMenu",
+      "alternateValue": "ContextMenu",
+      "type": "control"
+    },
+    "ControlRight": {
+      "defaultValue": "Ctrl",
+      "alternateValue": "Ctrl",
+      "type": "control"
+    },
+    "Escape": {
+      "defaultValue": "Escape",
+      "alternateValue": "Escape",
+      "type": "control"
+    },
+    "ArrowUp": {
+      "defaultValue": "🠙",
+      "alternateValue": "🠙",
+      "type": "cursor"
+    },
+    "ArrowDown": {
+      "defaultValue": "🠛",
+      "alternateValue": "🠛",
+      "type": "cursor"
+    },
+    "ArrowLeft": {
+      "defaultValue": "🠘",
+      "alternateValue": "🠘",
+      "type": "cursor"
+    },
+    "ArrowRight": {
+      "defaultValue": "🠚",
+      "alternateValue": "🠚",
+      "type": "cursor"
+    },
+    "Delete": {
+      "defaultValue": "Del",
+      "alternateValue": "Del",
+      "type": "control"
+    },
+    "LangSwitch": {
+      "defaultValue": "🌐",
+      "alternateValue": "🌐",
+      "type": "control"
+    }
   }
 }
