@@ -288,8 +288,8 @@
       "type": "control"
     },
     "Space": {
-      "defaultValue": " ",
-      "alternateValue": " ",
+      "defaultValue": "English",
+      "alternateValue": "English",
       "type": "char"
     },
     "AltRight": {
