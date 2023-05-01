@@ -176,7 +176,7 @@ class Keyboard {
     document.addEventListener('keydown', (e) => {
       // e.preventDefault();
       const {
-        code, repeat, shiftKey, ctrlKey,
+        code, repeat, ctrlKey, altKey,
       } = e;
 
       if (!this.#$buttons.has(code)) return;
@@ -193,7 +193,7 @@ class Keyboard {
         this.toggleCapsLock();
       }
 
-      if (ctrlKey && shiftKey) {
+      if (ctrlKey && altKey) {
         this.selectNextLanguage();
       }
 

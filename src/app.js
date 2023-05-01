@@ -6,8 +6,6 @@ class App {
 
   #$textarea;
 
-  #isTextAreaFocused;
-
   #textareaValues;
 
   #$elem;
@@ -41,14 +39,6 @@ class App {
   }
 
   #bindListeners() {
-    this.#$textarea.addEventListener('focus', () => {
-      this.#isTextAreaFocused = true;
-    });
-
-    this.#$textarea.addEventListener('blur', () => {
-      this.#isTextAreaFocused = false;
-    });
-
     this.#$textarea.addEventListener('input', (e) => {
       e.preventDefault();
     });
@@ -62,8 +52,6 @@ class App {
     });
 
     this.#keyboard.getElem().addEventListener('keyboardKeyDown', (e) => {
-      // if (this.#isTextAreaFocused) return;
-
       const { code, type, value } = e.detail;
 
       if (type === 'letter' || type === 'char' || type === 'cursor') {
@@ -85,13 +73,20 @@ class App {
   }
 
   #render() {
-    const $container = jsxToDom('div', { class: 'container' });
-    this.#$textarea = jsxToDom('textarea', {});
-    const info1 = jsxToDom('p', {}, 'Клавиатура создана в операционной системе Windows');
-    const info2 = jsxToDom('p', {}, 'Для переключения языка комбинация: ctrl + shift / 🌐 ');
+    const $app = jsxToDom('div', { class: 'app' });
+    const $container = jsxToDom('div', { class: 'app__container' });
+    const $title = jsxToDom('h1', { class: 'app__title' }, 'RSS Виртуальная клавиатура');
+    this.#$textarea = jsxToDom('textarea', { class: 'app__textarea' });
 
-    $container.append(this.#$textarea, this.#keyboard.getElem(), info1, info2);
-    this.#$elem = $container;
+    const $infoContainer = jsxToDom('div', { class: 'info' });
+    const $info1 = jsxToDom('p', { class: 'info__text' }, 'Клавиатура создана в операционной системе Windows');
+    const $info2 = jsxToDom('p', { class: 'info__text' }, 'Для переключения языка используйте: ctrl + alt / 🌐 ');
+    $infoContainer.append($info1, $info2);
+
+    $container.append($title, this.#$textarea, this.#keyboard.getElem(), $infoContainer);
+
+    $app.append($container);
+    this.#$elem = $app;
   }
 }
 
