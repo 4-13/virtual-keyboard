@@ -1,0 +1,117 @@
+
+.keyboard {
+  --background-color: #7b7d85;
+  --shadow-color: #34353a;
+  --accent-color: #6464ff;
+  --key-backgound-color: #fefefe;
+
+  max-width: 46rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.5rem;
+  border: 0.25rem solid var(--shadow-color);
+  border-radius: 0.5rem;
+  background-color: var(--background-color);
+}
+
+.keyboard__row {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.keyboard__button[data-code*="Shift"],
+.keyboard__button[data-code*="Enter"],
+.keyboard__button[data-code*="Backspace"],
+.keyboard__button[data-code*="Space"],
+.keyboard__button[data-code*="Del"] {
+  flex-grow: 1;
+}
+
+.keyboard__button[data-code="CapsLock"] {
+  font-size: 1rem;
+}
+
+.k-button {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "content";
+  place-items: center;
+  font-size: 1.2rem;
+  padding: 0.25em;
+  min-block-size: 2.5rem;
+  min-inline-size: 2.5rem;
+  user-select: none;
+  cursor: pointer;
+  border: solid 0.15rem var(--shadow-color);
+  border-radius: 0.5rem;
+  background-color: var(--key-backgound-color);
+  transition-property: color, background-color, scale;
+  transition-duration: 0.25s;
+}
+
+.k-button[data-code="Space"] {
+  min-inline-size: 10rem;
+}
+
+.k-button[data-code="Space"]::after {
+  content: data-type;
+  grid-area: content;
+}
+
+.k-button[aria-pressed="true"],
+[data-capslock-pressed="true"] .k-button[data-code="CapsLock"],
+[data-shift-pressed="true"][data-shift-active="ShiftLeft"]
+  .k-button[data-code="ShiftLeft"],
+[data-shift-pressed="true"][data-shift-active="ShiftRight"]
+  .k-button[data-code="ShiftRight"] {
+  color: var(--key-backgound-color);
+  background-color: var(--accent-color);
+  scale: 0.9;
+}
+
+.k-button__default-text {
+  grid-area: content;
+}
+
+.k-button__alternate-text {
+  grid-area: content;
+  opacity: 0;
+}
+
+[data-shift-pressed="true"]
+  .k-button[data-type="char"]
+  .k-button__default-text {
+  opacity: 0;
+}
+
+[data-shift-pressed="true"]
+  .k-button[data-type="char"]
+  .k-button__alternate-text {
+  opacity: 1;
+}
+
+[data-capslock-pressed="true"][data-shift-pressed="false"]
+  .k-button[data-type="letter"]
+  .k-button__default-text {
+  opacity: 0;
+}
+
+[data-capslock-pressed="true"][data-shift-pressed="false"]
+  .k-button[data-type="letter"]
+  .k-button__alternate-text {
+  opacity: 1;
+}
+
+[data-capslock-pressed="false"][data-shift-pressed="true"]
+  .k-button[data-type="letter"]
+  .k-button__default-text {
+  opacity: 0;
+}
+
+[data-capslock-pressed="false"][data-shift-pressed="true"]
+  .k-button[data-type="letter"]
+  .k-button__alternate-text {
+  opacity: 1;
+}
