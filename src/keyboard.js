@@ -174,7 +174,6 @@ class Keyboard {
     });
 
     document.addEventListener('keydown', (e) => {
-      // e.preventDefault();
       const {
         code, repeat, ctrlKey, altKey,
       } = e;
@@ -322,8 +321,6 @@ class Keyboard {
     let keyValue = '';
 
     const { defaultValue, alternateValue, type } = this.currentLanguage.keys[code];
-
-    // debugger
 
     if (type === 'letter') {
       if (this.shiftPressed && this.capsLockPressed) {
