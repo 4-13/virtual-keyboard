@@ -290,6 +290,7 @@ const ru = {
     Space: {
       defaultValue: ' ',
       alternateValue: ' ',
+      type: 'char',
     },
     AltRight: {
       defaultValue: 'AltGr',
