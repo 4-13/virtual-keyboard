@@ -20,4 +20,5 @@
 .app__textarea {
   min-block-size: 5rem;
   min-inline-size: 80%;
+  resize: vertical;
 }
